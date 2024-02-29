@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.4</version>
+    <version>3.2.3</version>
   </parent>
 
 
@@ -23,13 +23,16 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <lombok.version>1.18.24</lombok.version>
+    <lombok.version>1.18.30</lombok.version>
   </properties>
 
   <modules>
-    <module>sender</module>
-    <module>receiver</module>
+      <module>sender</module>
+      <module>receiver</module>
       <module>senderRestTemplate</module>
+      <module>senderRestTemplateWithServiceDiscovery</module>
+      <module>serviceRegistry</module>
+      <module>senderWithForeign</module>
   </modules>
 
   <dependencyManagement>
@@ -39,8 +42,8 @@
      <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
-         <version>3.1.4</version>
-      </dependency>
+         <version>3.2.3</version>
+       </dependency>
 
 
       <dependency>
