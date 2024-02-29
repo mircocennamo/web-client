@@ -27,11 +27,12 @@
   </properties>
 
   <modules>
-    <module>sender</module>
-    <module>receiver</module>
+      <module>sender</module>
+      <module>receiver</module>
       <module>senderRestTemplate</module>
       <module>senderRestTemplateWithServiceDiscovery</module>
       <module>serviceRegistry</module>
+      <module>senderWithForeign</module>
   </modules>
 
   <dependencyManagement>
